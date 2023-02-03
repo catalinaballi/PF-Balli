@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*titulo*/
+
+h1{
+    background-color: rgb(146, 67, 76);
+    padding: 25px;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: rgb(218, 158, 143);
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .5; 
+    font-size: 50px; 
+   
+}
+/*titulo hover*/
+h1:hover{
+    opacity: 0.6;
+    color: rgb(174, 138, 142);
+    background-color:rgb(71, 16, 16);
+}
+
+
+
+
+    body{
+        background-color: rgb(124, 132, 84);   
+    }
+    
+
+  
+
+    
+    
+
+.green{
+    
+    background-image: url(../assets/maquina3.jpg);
+    background-color: blue;
+    opacity: 0.1;
+    
+    
+}
+
+
+    div{
+    
+        background-color: rgb(107, 112, 76);
+        display: inline-block;
+       
+    }
+
+    img{
+        position: relative;
+
+        width: 390px;
+        padding: 20px;
+        margin-top: 70%;
+        margin-left: 40%;
+        border-radius: 22%;
+        opacity: 0.8;
+      transition: height 0.4s, width 2s;
+    }
+
+
+
+    img:hover{
+        opacity: 1;
+        
+        
+    }
+   
+
+   /*Instagram*/
+footer{
+    background-color: rgb(90, 99, 59);
+    justify-content: center;
+    padding: 25px;
+    margin: 50px;
+    margin-top: 4%;
+    margin-left: 10%;
+    border-radius: 28px;
+    width: 180px;
+    height: 100px;
+    transition: height 0.4s, width 2s;
+}
+
+footer:hover{
+   
+    background-image: linear-gradient(to top, rgb(122, 118, 2) ,rgb(169, 142, 112),rgb(204, 125, 156), rgb(240, 159, 130));
+    height: 100px; width: 78%;
+    
+    text-align: center;
+       }
+
+       
+/*links*/
+a{
+    
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 50px;
+     
+}
+
+a:hover{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+.roja{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 5px;
+    background-color: rgb(185, 205, 150);
+    font-size: 20px;
+    position: absolute;
+    top: 95%;
+    left: 198px;
+    color: rgb(0, 0, 0);
+    
+    transition: background-color 6s, left 2.5s, widht 2s, height 3s,border-radius 2s, font-size 1.8s, top 2s, width 2s, left 2s;
+    
+
+}
+
+.roja:hover{
+    background-color: brown;
+    padding: 19px;
+   border-radius: 49px;
+   color: rgb(56, 53, 50);
+   top: 42%;
+   height: 375px;
+   width: 390px;
+   left: 166px;
+   text-align: center;
+   background-image: url(../assets/maquina11.jpg);
+    
+      
+    
+   
+
+}
+
+
+
+.amarilla{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 7px;
+    background-color: rgb(185, 205, 150);
+    font-size: 20px;
+    position: absolute;
+    top: 95%;
+    left: 574px;
+    transition: background-color 6s, left 2.5s, widht 2s, height 3s,border-radius 2s, font-size 1.8s, top 2s, width 2s, left 2s;
+}
+
+.amarilla:hover{
+     background-color: rgb(255, 230, 6);
+     padding: 8px;
+     border-radius: 49px;
+     color: rgb(56, 53, 50);
+     top: 42%;
+     height: 375px;
+     width: 390px;
+     left: 549px;
+     text-align: center;
+     background-image: url(../assets/maquina22.jpg);
+
+}
+
+
+
+
+
+
+.verde{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 7px;
+    background-color: rgb(185, 205, 150);
+    font-size: 21px;
+    position: absolute;
+    top: 95%;
+    left: 960px;
+}
+
+
+.rojametal
+{border-radius: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 7px;
+    background-color: rgb(185, 205, 150);
+    font-size: 21px;
+    position: absolute;
+    top: 129%;
+    left: 200px;
+    transition: background-color 1s, left 2.5s, padding 2s, size 3s, widht 3s, height 4s,border-radius 2s, font-size 1.8s;
+}
+
+.rojametal:hover{
+    
+    font-weight: 500;
+    background-color: rgb(155, 12, 12);
+    color: rgb(90, 86, 80);
+    height: 399px;
+    font-size: 21px;
+    width: 355px;
+    border-radius: 20px;
+    left: 176px;
+    font-size: 22px;
+    padding: 15px;
+    background-image: url(../assets/maquina12.jpg);
+
+
+}
+
+.rosametal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 21px;
+    padding: 7px;
+    background-color: rgb(185, 205, 150);
+    position: absolute;
+    top: 129%;
+    left: 1020px;
+    transition: background-color 1s, left 2.5s, size 3s, widht 3s, height 4s,border-radius 2s, font-size 1.8s;
+}
+
+.rosametal:hover{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(217, 38, 160);
+    color: rgb(90, 86, 80);
+    height: 400px;
+    font-size: 22px;
+    width: 355px;
+    left: 963px;
+    font-size: 21px;
+    background-image: url(../assets/maquina66.jpg);
+
+
+}
+
+.dorada{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 9px;
+    background-color: rgb(185, 205, 150);
+    font-size: 18px;
+    position: absolute;
+    top: 129%;
+    left: 570px;
+    transition: background-color 1s, size 3s, height 4s,border-radius 2s, font-size 1s;
+}
+
+
+.dorada:hover{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 16px;
+    font-weight: 500;
+    background-color: rgb(192, 185, 10);
+    color: rgb(90, 86, 80);
+    padding: 12px;
+    height: 400px;
+    font-size: 20px;
+    background-image: url(../assets/maquina55.jpg);
+    
+}
+
+
+

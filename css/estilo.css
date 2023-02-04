@@ -13,7 +13,7 @@ h1{
     text-align: center; 
     color: rgb(218, 158, 143);
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 50px;
@@ -36,40 +36,54 @@ body{
     background-color: rgb(124, 132, 84);   
 }
 
-.foto{
-    background-image: url(../assets/logo.jpg);
-    width: 300px;
-    right: 1330px;
-    position: absolute;
-    bottom: 900px;
-    border-radius:35px;
-   animation-name: foto;
-   animation-duration: 9s;
-   animation-iteration-count: infinite;
+.top{
+    background-color: rgb(144, 100, 100);
+    position: fixed;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+    
 }
 
-@keyframes foto
- {
-    0%{bottom: 1050px;}
-    50%{ bottom: 850px;}
-    100%{bottom: 1050px;}
- }
+/*Galeria*/
+h3{
+    display: flex;
+    background-color: rgb(146, 67, 76);
+    padding: 30px;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: rgb(218, 158, 143);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .5; 
+    font-size: 50px;
+}
+h3:hover{
+    opacity: 0.6;
+color: rgb(174, 138, 142);
+background-color:rgb(71, 16, 16);
+}
 
 
 
-
-    
 
 /*menu*/
 nav{
-padding-top: 50px;
+padding-top: 70px;
+
 }
 
 
 /*maquinas, tintas, accesorios*/
 .tienda{
-    padding-left: 23%;
-    padding-top: 300px;  
+    padding-left: 22%;
+    padding-top: 240px;  
     
 }
 
@@ -78,9 +92,13 @@ padding-top: 50px;
 a{
     
     color: rgb(50, 8, 8);
+    position: relative;
     text-decoration: none;
     font-size: 30px;
     padding-left: 50px;
+    
+
+    
 
     
 }
@@ -127,21 +145,20 @@ img{
     opacity: 0.5;
     position: absolute;
     left: 82%;
-    top: 480px;
+    top: 220px;
     border-radius:35px;
    animation-name: logo;
    animation-duration: 16s;
    animation-iteration-count: infinite;
    
-
 }
 
  @keyframes logo
  {
-    0%{ top: 480px;}
-    50%{ top: 180px;}
-    100%{ left: 82%}
-    
+    0%{ top: 220px;}
+    50%{ top: 500px;}
+    100%{ top: 220px;}
+
 }
 
 
@@ -155,15 +172,16 @@ img:hover{
 /*Instagram*/
 footer{
     background-color: rgb(90, 99, 59);
-    justify-content: center;
+    position: relative;
     padding: 25px;
     margin: 50px;
-    margin-top: 4%;
+    margin-top: 60px;
     margin-left: 10%;
     border-radius: 28px;
     width: 180px;
     height: 100px;
     transition: height 0.4s, width 2.5s;
+    
 }
 
 footer:hover{
@@ -177,16 +195,14 @@ footer:hover{
 
 /*buscador*/
 form{
-    
+    top: 45px;
     padding: 40px;
     margin: 20px;
     margin-left: 80%;
     background-color: rgb(104, 113, 70);
     position: fixed;
-    top: 0;
-    left: 0;
     border-radius: 28px;
-    width: 272px;
+    width: 292px;
    height: 100x;
 }
 

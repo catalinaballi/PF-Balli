@@ -146,7 +146,7 @@ a:hover{
     padding: 19px;
    border-radius: 49px;
    color: rgb(56, 53, 50);
-   top: 42%;
+   top: 49%;
    height: 375px;
    width: 390px;
    left: 166px;
@@ -179,7 +179,7 @@ a:hover{
      padding: 8px;
      border-radius: 49px;
      color: rgb(56, 53, 50);
-     top: 42%;
+     top: 49%;
      height: 375px;
      width: 390px;
      left: 549px;
@@ -224,13 +224,14 @@ a:hover{
     font-weight: 500;
     background-color: rgb(155, 12, 12);
     color: rgb(90, 86, 80);
-    height: 399px;
+    height: 444px;
     font-size: 21px;
     width: 355px;
     border-radius: 20px;
     left: 176px;
     font-size: 22px;
     padding: 15px;
+    
     background-image: url(../assets/maquina12.jpg);
 
 
@@ -257,7 +258,7 @@ a:hover{
     text-align: center;
     background-color: rgb(217, 38, 160);
     color: rgb(90, 86, 80);
-    height: 400px;
+    height: 440px;
     font-size: 22px;
     width: 355px;
     left: 963px;
@@ -274,10 +275,11 @@ a:hover{
     padding: 9px;
     background-color: rgb(185, 205, 150);
     font-size: 18px;
+    
     position: absolute;
     top: 129%;
     left: 570px;
-    transition: background-color 1s, size 3s, height 4s,border-radius 2s, font-size 1s;
+    transition: background-color 1s, size 3s, top 2s, height 4s,border-radius 2s, font-size 1s;
 }
 
 
@@ -289,7 +291,8 @@ a:hover{
     background-color: rgb(192, 185, 10);
     color: rgb(90, 86, 80);
     padding: 12px;
-    height: 400px;
+    height: 439px;
+    top: 130%;
     font-size: 20px;
     background-image: url(../assets/maquina55.jpg);
     

@@ -17,7 +17,7 @@ p{
 
 h2{
     display: flex;
-    background-color: rgb(146, 67, 76);
+    background-color: rgb(118, 63, 69);
     padding: 30px;
     border-radius: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -27,7 +27,7 @@ h2{
     top: 2%;
     left: 50%;
     transform: translateX(-50%);
-    opacity: .8; 
+   
     font-size: 50px;
 }
 
@@ -62,3 +62,13 @@ h2{
 
 }
 
+.botones{
+position: fixed;
+opacity: .8;
+margin: 20px;
+padding: 20px;
+
+}
+
+a{
+    text-decoration: none;}

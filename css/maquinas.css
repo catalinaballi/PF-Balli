@@ -14,7 +14,7 @@ h1{
     color: rgb(218, 158, 143);
     position: absolute;
     display: flex;
-    top: 12%;
+    top: 2%;
     left: 50%;
     transform: translateX(-50%);
     opacity: .5; 
@@ -27,6 +27,8 @@ h1:hover{
     color: rgb(174, 138, 142);
     background-color:rgb(71, 16, 16);
 }
+
+
 
 
 

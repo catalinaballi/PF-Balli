@@ -379,14 +379,31 @@ label.fcf-label {
     margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-lg {
     width: 100%;
 }
 
 
 div.form{
    position: relative;
-   left: 200px;
+   right: 20px;
+   bottom: 300px;
    
-   
+}
+
+.a{
+    position: relative;
+    right: 580px;
+    font-size: 25px;
+    animation-name: agenda;
+   animation-duration:35s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes agenda
+ {
+    0%{right: 580px; }
+    50%{ right: -580px;}
+    100%{right: 580px; }
+
 }

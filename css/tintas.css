@@ -435,3 +435,31 @@ footer:hover{
        footer.insta{
         position: fixed
        }
+
+       .acce2{
+       
+        background-color: rgb(70, 77, 49);
+        
+        
+        
+       }
+
+      .carousel-inner{
+        padding: 15px;
+        position: relative;
+        justify-content: center;
+        width: 350px;
+        top: -220px;
+        
+       }
+
+
+       .text{
+        font-size: 18px;
+        font-weight: 200;
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        margin-left: 390px;
+       }
+       
